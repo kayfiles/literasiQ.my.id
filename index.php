@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="Site keywords here" />
+    <meta name="description" content="" />
+    <meta name="copyright" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Title -->
+    <title>LiterasiQ - Home</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="favicon/mstile-310x310.png" />
+
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fonts awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- icofont CSS -->
+    <link rel="stylesheet" href="css/icofont.css" />
+    <!-- Slicknav -->
+    <link rel="stylesheet" href="css/slicknav.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl-carousel.css" />
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet" href="css/datepicker.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <!-- Medipro CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <style>
+      .overlayy::before {
+        content: "";
+        background: rgba(196, 0, 0, 0.8) !important; /* merah semi transparan */
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+      }
+    </style>
+
+  </head>
+  <body>
+   
+    <!-- Header Area -->
+    <header class="header">
+      <!-- Topbar -->
+      <div class="topbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-5 col-12">
+              <!-- Contact -->
+              <span
+                >info :<marquee behavior="" direction=""
+                  >Kami menyediakan </marquee
+                ></span
+              >
+              <!-- End Contact -->
+            </div>
+            <div class="col-lg-6 col-md-7 col-12">
+              <!-- Top Contact -->
+              <ul class="top-contact">
+                <li><a href=" "><i class="fa fa-phone"></i>+62 851-7305-3120</li></a>
+                <li>
+                  <i class="fa fa-envelope"></i
+                  ><a href="mailto:support@yourmail.com"
+                    >info@literasiQ.com</a
+                  >
+                </li>
+              </ul>
+              <!-- End Top Contact -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Topbar -->
+      <!-- Header Inner -->
+      <div class="header-inner">
+         <!-- video motion start -->
+        <div class="neon-bg"></div>
+       <!-- video motion end -->
+        <div class="container">
+          <div class="inner">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-12">
+                <!-- Start Logo -->
+                <div class="logo">
+                  <a href="index.php"><img src="assets/img/Hardeco.png" alt="#" /></a>
+                </div>
+                <!-- End Logo -->
+                <!-- Mobile Nav -->
+                <div class="mobile-nav"></div>
+                <!-- End Mobile Nav -->
+              </div>
+              <div class="col-lg-7 col-md-9 col-12">
+                <!-- Main Menu -->
+                <div class="main-menu">
+                  <nav class="navigation">
+                    <ul class="nav menu">
+                      <li class="active">
+                        <a href="#">Home </a>
+                      </li>
+                      <li><a href="about.php">About </a></li>
+                      <li><a href="event.php">Event </a></li>
+                      <li>
+                        <a href="blog.php">Blogs </a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Learning <i class="icofont-rounded-down"></i></a>
+                          <ul class="dropdown">
+                            <li class="nav-item dropend">
+                              <a class="nav-link " href="training.php">Training</a>
+                            </li>
+                            <li class="nav-item dropend">
+                             <a class="nav-link " href="flexilearn.php">Flexilearn</a>
+                        </ul>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <!--/ End Main Menu -->
+              </div>
+              <div class="col-lg-2 col-12">
+                <div class="get-quote">
+                  <a href="#" class="btn"
+                    ><span class="text">
+                      MY LEARNING <i class="fa-solid fa-arrow-right fa-sm"></i></span
+                    ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ End Header Inner -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Slider Area -->
+    <section class="slider">
+      <div class="hero-slider">
+        <!-- Start Single Slider -->
+        <div
+          class="single-slider"
+          style="background-image: url('assets/img/header.png')"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text" style="color: #fff">
+                  <div class="button">
+                    <a href="#" class="btn mb-4"
+                      >Experince The Best IT Solution</a
+                    >
+                  </div>
+                  <h1>Provide <span>IT Solution & Service</span></h1>
+                  <p>
+                    Kami selalu mengikuti tred terbaru dari dalam teknologi
+                    informasi untuk memberikan solusi yang relevan untuk
+                    pelanggan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Slider -->
+        <!-- Start Single Slider -->
+        <div
+          class="single-slider"
+          style="background-image: url('assets/img/header2.png')"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1>One Stop Solution</h1>
+                  <p>
+                    Kami menawarkan berbagai layanan teknologi yang dapat
+                    disesuaikan dengan kebutuhan untuk perusahaan anda
+                  </p>
+                  <div class="button">
+                    <a href="#" class="btn primary"
+                      >The more Experience better</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Start End Slider -->
+        <!-- Start Single Slider -->
+        <div
+          class="single-slider"
+          style="background-image: url('assets/img/header3.jpg')"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1>
+                    Superior<span>Customer</span> Services
+                    <span>Trust!</span>
+                  </h1>
+                  <p>
+                   Kami berinvestasi dalam teknologi terbaik untuk bisnis anda.
+                  </p>
+                  <div class="button">
+                    <a href="#" class="btn">Get Free Consult</a>
+                    <a href="#" class="btn primary">Contact Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Slider -->
+      </div>
+    </section>
+    <!--/ End Slider Area -->
+
+    <!-- Start Schedule Area -->
+    <section class="schedule">
+      <div class="container">
+        <div class="schedule-inner">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule first">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fa-solid fa-laptop-code fa-lg"></i>
+                  </div>
+                  <div class="single-content">
+                    <span> ... </span>
+                    <h4>Our Vission</h4>
+                    <p>
+                      Lorem ipsum sit amet consectetur adipiscing elit. Vivamus
+                      et erat in lacus convallis sodales.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule middle">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="icofont-prescription"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>...</span>
+                    <h4>Our Mission</h4>
+                    <p>
+                      Lorem ipsum sit amet consectetur adipiscing elit. Vivamus
+                      et erat in lacus convallis sodales.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule last">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="icofont-ui-clock"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>...</span>
+                    <h4>Exellent Team</h4>
+                    <ul class="time-sidual">
+                      <li class="day">
+                        Monday - Fridayp <span>8.00-20.00</span>
+                      </li>
+                      <li class="day">Saturday <span>9.00-18.30</span></li>
+                      <li class="day">
+                        Monday - Thusday <span>9.00-15.00</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/End Start schedule Area -->
+
+    <!-- Start Feautes -->
+    <section class="why-choose section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>We Offer Different Services To Improve Your Company</h2>
+              <img src="img/section-img.png" alt="#" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <!-- Start Choose Left -->
+            <div class="choose-left">
+              <h3>Who We Are</h3>
+              
+                <img src="assets/img/about.png" alt="" width="1000px">
+              
+              <div class="row">
+                <div class="col-lg-8">
+                  <ul class="list">
+                    <li>
+                      <i class="fa fa-caret-right"></i>Pengembangan perangkat lunak.
+                    </li>
+                    <li><i class="fa fa-caret-right"></i>Design dan Digital marketing.</li>
+                    <li>
+                      <i class="fa fa-caret-right"></i>Internet of Things.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End Choose Left -->
+          </div>
+          <div class="col-lg-6 col-12">
+            <!-- Start Choose Rights -->
+              <div>
+                <img src="assets/img/Hardeco.png" alt="Hardeco" width="900px">
+            </div>
+            <!-- End Choose Rights -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End Feautes -->
+
+    <!-- Start Fun-facts -->
+    <div id="fun-facts" class="fun-facts section overlayy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont icofont-list"></i>
+              <div class="content">
+                <span class="counter">468</span>
+                <p>OF Projects</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont icofont-user-alt-3"></i>
+              <div class="content">
+                <span class="counter">99</span>
+                <p>Specialist Member</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont-simple-smile"></i>
+              <div class="content">
+                <span class="counter">279</span>
+                <p>Happy clients</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont icofont-table"></i>
+              <div class="content">
+                <span class="counter">5</span>
+                <p>Years of Experience</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ End Fun-facts -->
+
+    <!-- start card learn -->
+    <div class="container-xxl py-5" style="background-color: #f3f3f3;">
+      <div class="container">
+        <div class="row g-0 gx-5 align-items-end">
+          <div class="col-lg-12">
+            <div
+              class="text-center mb-5 wow slideInLeft"
+              data-wow-delay="0.1s">
+              <h1 class="mb-3">Best Courses To Level Up <br> Your Skills</h1>
+              <div class="btn-group" role="group">
+                  <button type="button" class="btn btn-secondary m-2">Show All</button>
+                  <button type="button" class="btn btn-secondary m-2">Training</button>
+                  <button type="button" class="btn btn-secondary m-2">Flexilearn</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content">
+          <div id="tab-1" class="tab-pane fade show p-0 active">
+            <div class="row g-4">
+              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href=""
+                      ><img class="img-fluid" src="img/pf1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Menciptakan solusi inovatif dan informatif yang berfokus pada pelanggan</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href=""
+                      ><img class="img-fluid" src="img/pf2.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-laptop fa-2xl"></i>
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Mendorong kemitraan dan kolaborasi demi pertumbuhan bersama</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href=""
+                      ><img class="img-fluid" src="img/pf3.jpg" alt=""
+                    /></a>
+                    <div
+                      class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                      <i class="fa-solid fa-lightbulb fa-2xl mb-4"></i>
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    
+                      <a class="d-block h5 mb-2 mt-4" href=""
+                        >Memanfaatkan teknologi terbaru untuk solusi yang
+                        kuat</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end card learn -->
+
+    <!-- Start Gallery -->
+    <section class="portfolio section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>Gallery Photos</h2>
+              <img src="img/section-img.png" alt="#" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <div class="owl-carousel portfolio-slider">
+              <div class="single-pf">
+                <img src="img/gallery/1.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/2.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/3.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/4.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/5.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/6.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/7.jpeg" alt="#" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End Gallery -->
+
+    <!-- Start service -->
+    <section class="services section" style="background-color: #f3f3f3;">
+      <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="mb-3">We Offer Different Services To Improve Your Skills</h1>
+            </div>
+            <div class="row g-4">
+              
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                              <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-laptop fa-stack-1x fa-inverse fa-beat"></i>
+                              </span>
+                            </div>
+                            <h6>Software Development</h6>
+                            <span>123 Properties</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                              <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i
+                                  class="fas fa-shopping-cart fa-stack-1x fa-inverse fa-flip"
+                                ></i>
+                              </span>
+                            </div>
+                            <h6>E-Commerce</h6>
+                            <span>123 Properties</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                              <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-pen-to-square fa-stack-1x fa-inverse fa-beat"></i>
+                              </span>
+                            </div>
+                            <h6>Design</h6>
+                            <span>123 Properties</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                              <span class="fa-stack fa-4x justify-content-center">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i
+                                  class="fas fa-chart-column fa-shake fa-stack-1x fa-inverse fa-lg"
+                                ></i>
+                              </span>
+                            </div>
+                            <h6>Digital Marketing</h6>
+                            <span>123 Properties</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--/ End service -->
+
+    <!-- Start Appointment -->
+    <section class="appointment">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>We Are Always Ready to Help You. Get In Touch</h2>
+              <img src="img/section-img.png" alt="#" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <form class="form" action="#">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input name="name" type="text" placeholder="Name" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input name="email" type="email" placeholder="Email" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input name="phone" type="text" placeholder="Phone" />
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                  <div class="form-group">
+                    <textarea
+                      name="message"
+                      placeholder="Write Your Message Here....."
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-5 col-md-4 col-12">
+                  <div class="form-group">
+                    <div class="button">
+                      <button type="submit" class="btn">
+                        Send Mail
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7 col-md-8 col-12">
+                  <p>( We will be confirm by an Text Message )</p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="appointment-image">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.6222648876887!2d106.85536547442231!3d-6.203809693783979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f500496e65df%3A0x233b49e11a30968e!2sGedung%20Ascom!5e1!3m2!1sen!2sid!4v1765524473521!5m2!1sen!2sid" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Appointment -->
+
+    <!-- Footer Area -->
+    <footer id="footer" class="footer">
+      <!-- Footer Top -->
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer">
+                <h2>About Us</h2>
+                <p>
+                  Kami bekerja dengan semangat menghadapi tantangan dan menciptakan terobosan baru melalui teknologi inovasi.
+                </p>
+                <!-- Social -->
+                <ul class="social">
+                  <li>
+                    <a href="#"><i class="icofont-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-instagram"></i></a>
+                  </li>
+                </ul>
+                <!-- End Social -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer f-link">
+                <h2>Quick Links</h2>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <ul>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Home</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >About Us</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Services</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Our Cases</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Other Links</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <ul>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Consuling</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Finance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Testimonials</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >FAQ</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Contact Us</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer">
+                <h2>Open Hours</h2>
+                <ul class="time-sidual">
+                  <li class="day">Monday - Saturday <span>8.00-20.00 WIB</span></li>
+                  <li class="day">Sunday <span>Clossed</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer f-link">
+                <h2>Get In Touch</h2>
+                <ul class="text-white">
+                  <li>
+                        <a href="#"
+                          ><i class="fa-solid fa-location-dot fa-lg" aria-hidden="true"></i
+                          > Jalan Matraman Raya No.67, JAKARTA TIMUR</a
+                        >
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-whatsapp fa-lg"></i> 0812-1233-2211</a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-regular fa-envelope fa-lg"></i> info@literasiQ.com</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ End Footer Top -->
+      <!-- Copyright -->
+      <div class="copyright bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="copyright-content">
+                <p>
+                  © Copyright 2025 - <a href="" target="_blank"
+                  >literasiQ</a
+                > All Rights Reserved
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ End Copyright -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- jquery Min JS -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jquery Migrate JS -->
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <!-- jquery Ui JS -->
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Easing JS -->
+    <script src="js/easing.js"></script>
+    <!-- Color JS -->
+    <script src="js/colors.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap Datepicker JS -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <!-- Jquery Nav JS -->
+    <script src="js/jquery.nav.js"></script>
+    <!-- Slicknav JS -->
+    <script src="js/slicknav.min.js"></script>
+    <!-- ScrollUp JS -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- Niceselect JS -->
+    <script src="js/niceselect.js"></script>
+    <!-- Tilt Jquery JS -->
+    <script src="js/tilt.jquery.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="js/owl-carousel.js"></script>
+    <!-- counterup JS -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Steller JS -->
+    <script src="js/steller.js"></script>
+    <!-- Wow JS -->
+    <script src="js/wow.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Counter Up CDN JS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
