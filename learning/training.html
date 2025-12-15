@@ -126,6 +126,26 @@
   padding-left: 8px;
 }
 
+/* Pagination */
+.pagination {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 6px;
+  margin-bottom: 2rem;
+}
+
+.pagination .page-item.active .page-link {
+  display: inline-flex !important;
+  background-color: #800000 !important;
+}
+
+.pagination .page-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
     </style>
 
   </head>
@@ -174,7 +194,7 @@
               <div class="col-lg-3 col-md-3 col-12">
                 <!-- Start Logo -->
                 <div class="logo">
-                  <a href="index.php"><img src="../assets/img/Hardeco.png" alt="#" /></a>
+                  <a href="index.php"><img src="../img/logo/1.jpeg" alt="#" /></a>
                 </div>
                 <!-- End Logo -->
                 <!-- Mobile Nav -->
@@ -189,11 +209,7 @@
                       <li>
                         <a href="../index.html">Home </a>
                       </li>
-                      <li><a href="about.htmk">About </a></li>
-                      <li><a href="event.php">Event </a></li>
-                      <li>
-                        <a href="blog.php">Blogs </a>
-                      </li>
+                      <li><a href="../about.html">About </a></li>
                       <li class="active">
                         <a href="#"
                           >Learning <i class="icofont-rounded-down"></i></a>
@@ -202,7 +218,7 @@
                               <a class="nav-link " href="training.html">Training</a>
                             </li>
                             <li class="nav-item dropend">
-                             <a class="nav-link " href="flexilearn.html">Flexilearn</a>
+                             <a class="nav-link " href="flexilearn.html">Konsultasi</a>
                             </li>
                             <li class="nav-item dropend">
                              <a class="nav-link " href="lainnya.html">Lainnya</a>
@@ -237,23 +253,23 @@
                  <div class="training f-link mt-3">
                    <ul>
                     <li>
-                      <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i
+                      <a href="#" data-filter="all" class="filter-btn"><i class="fa fa-caret-right" aria-hidden="true"></i
                           >Semua</a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i
+                      <a href="#" data-filter="digital" class="filter-btn"><i class="fa fa-caret-right" aria-hidden="true"></i
                           >Digital</a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i
-                          >teknologi informasi</a>
+                      <a href="#" data-filter="ti" class="filter-btn"><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Teknologi Informasi</a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i
+                      <a href="#" data-filter="Softskill" class="filter-btn"><i class="fa fa-caret-right" aria-hidden="true"></i
                           >Softskill</a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i
+                      <a href="#" data-filter="microsoft" class="filter-btn"><i class="fa fa-caret-right" aria-hidden="true"></i
                           >Microsoft</a>
                     </li>
                   </ul>
@@ -261,112 +277,821 @@
                 </div>
                 <div class="col-md-9">
                   <div class="row">
-                      <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="training">
+                    <!-- card kategori digital -->
+                      <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
                 <div class="property-item rounded overflow-hidden bg-light">
                   <div class="position-relative overflow-hidden">
-                    <a href=""
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/digital-marketing-with-icons-business-people.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Digital Marketing</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Video Editing.webp" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Konten Kreator</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/businesswomen-discussing-project-office Maju Training.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Sosial Media Marketing</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Video Editing.webp" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Video Editing</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Power BI.jpeg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Staff Operasi Layanan IT</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
                       ><img class="img-fluid" src="../img/produk/Web Developer.jpg" alt=""
                     /></a>
 
                     <div
                       class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
                     >
-                    <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
                     </div>
                   </div>
                   <div class="p-4 pb-0">
                     <a class="d-block h5 mb-2 mt-4" href=""
-                      >Menciptakan solusi inovatif dan informatif yang berfokus pada keamanan jaringan dan server</a
+                      >Web Developer</a
                     >
                   </div>
                 </div>
               </div>
 
-               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="training">
+                <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
                 <div class="property-item rounded overflow-hidden bg-light">
                   <div class="position-relative overflow-hidden">
-                    <a href=""
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/smiling-businessman-raising-hand-conference.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Desainer Grafis Muda</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/smiling-businessman-raising-hand-conference.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Desainer Grafis</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Training Power Point.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Desainer Multimedia Muda</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/data-analyst-career-salary-job-outlook.webp" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Desainer Multimedia Madya</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Training arround table.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Praktikal Office Advance</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="digital">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Data Analyst BNSP.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Digital
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Data Analyst</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- card kategori TI -->
+                 <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Office Basic</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Artifitial Inteligent.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Basic Programming</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Power BI.jpeg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Sistem Analyst</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Training-and-Development-Pengertian-Manfaat-dan-Jenisnya.webp" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >ICT Site Management</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Cyber Security.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Technical Support</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/in house training.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >ITSM Supervisor</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/data-analyst-career-salary-job-outlook.webp" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >IT Security Management Staff</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Training-and-Development-Pengertian-Manfaat-dan-Jenisnya.webp" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >ICT Project Manager</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Web-Application-Penetration-Testing-WAPT.png" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Enterprise Architect</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Training Power Point.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Data Entry Clerk</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
                       ><img class="img-fluid" src="../img/produk/Web Developer.jpg" alt=""
                     /></a>
 
                     <div
                       class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
                     >
-                    <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
                     </div>
                   </div>
                   <div class="p-4 pb-0">
                     <a class="d-block h5 mb-2 mt-4" href=""
-                      >Menciptakan solusi inovatif dan informatif yang berfokus pada keamanan jaringan dan server</a
+                      >Proggramer</a
                     >
                   </div>
                 </div>
               </div>
 
-               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="training">
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
                 <div class="property-item rounded overflow-hidden bg-light">
                   <div class="position-relative overflow-hidden">
-                    <a href=""
-                      ><img class="img-fluid" src="../img/produk/Web Developer.jpg" alt=""
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/team-training.webp" alt=""
                     /></a>
 
                     <div
                       class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
                     >
-                    <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
                     </div>
                   </div>
                   <div class="p-4 pb-0">
                     <a class="d-block h5 mb-2 mt-4" href=""
-                      >Menciptakan solusi inovatif dan informatif yang berfokus pada keamanan jaringan dan server</a
+                      >Networking</a
                     >
                   </div>
                 </div>
               </div>
 
-               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="training">
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
                 <div class="property-item rounded overflow-hidden bg-light">
                   <div class="position-relative overflow-hidden">
-                    <a href=""
-                      ><img class="img-fluid" src="../img/produk/Web Developer.jpg" alt=""
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Power BI.jpeg" alt=""
                     /></a>
 
                     <div
                       class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
                     >
-                    <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
                     </div>
                   </div>
                   <div class="p-4 pb-0">
                     <a class="d-block h5 mb-2 mt-4" href=""
-                      >Menciptakan solusi inovatif dan informatif yang berfokus pada keamanan jaringan dan server</a
+                      >Technical Support</a
                     >
                   </div>
                 </div>
               </div>
 
-               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="training">
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="ti">
                 <div class="property-item rounded overflow-hidden bg-light">
                   <div class="position-relative overflow-hidden">
-                    <a href=""
-                      ><img class="img-fluid" src="../img/produk/Web Developer.jpg" alt=""
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/Training-and-Development-Pengertian-Manfaat-dan-Jenisnya.webp" alt=""
                     /></a>
 
                     <div
                       class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
                     >
-                    <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Teknologi informasi
                     </div>
                   </div>
                   <div class="p-4 pb-0">
                     <a class="d-block h5 mb-2 mt-4" href=""
-                      >Menciptakan solusi inovatif dan informatif yang berfokus pada keamanan jaringan dan server</a
+                      >Training Microsoft Office ( Word/Excell/Power Point/Power Bi )</a
                     >
                   </div>
                 </div>
               </div>
 
+              <!-- card kategori softskill -->
+                <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="Softskill">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Softskill
                     </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Training Of Traineer (TOT)</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="Softskill">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Softskill
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Human Resourse Supervisor (HRS)</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="Softskill">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Softskill
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Manager Remunerasi</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="Softskill">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Softskill
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Kepala Bagian Rekruitmen dan Seleksi Sumber Daya Manusia</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="Softskill">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Softskill
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Kepala Bagian Hubungan Industrial</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="Softskill">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Softskill
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Manager Management Talenta</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+               <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="Softskill">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Softskill
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Manager Pelatihan dan Pengebangan</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card kategori Microsoft -->
+                <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="microsoft">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Microsoft
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Microsoft Excel (Beginner)</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="microsoft">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Microsoft
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Microsoft Excel Intermediate</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="microsoft">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Microsoft
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Microsoft Excel Advence</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="microsoft">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Microsoft
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Microsoft Power Point</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 card-item wow fadeInUp" data-wow-delay="0.1s" data-category="microsoft">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href="" data-toggle="modal" data-target="#exampleModal"
+                      ><img class="img-fluid" src="../img/produk/1.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i> Microsoft
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Microsoft Power BI</a
+                    >
+                  </div>
+                </div>
+              </div>
+               
+              </div>
+
+               <!-- Pagination -->
+                    <div class="row">
+                      <div class="col-12 text-center mt-4">
+                        <nav class="mt-4 d-flex justify-content-center">
+                          <ul class="pagination pagination-rounded" id="pagination"></ul>
+                        </nav>
+                      </div>
+                    </div>
+            
+                   
+
                   </div>
                 </div>
             </div>
@@ -530,34 +1255,163 @@
     </footer>
     <!--/ End Footer Area -->
 
+    <!-- Modal area start -->
+     <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Form Pendaftaran</h5>
+      </div>
+      <div class="modal-body">
+        <form action="" method="post">
+          <div class="input-grup mb-3">
+            <label for="">Nama</label>
+            <input type="text" class="form-control" name="nama" placeholder="Masukkan Nama Anda" required autofocus>
+          </div>
+          <div class="input-grup mb-3">
+            <label for="">Alamat Emali</label>
+            <input type="email" class="form-control" name="email" placeholder="Masukkan Email Anda" required>
+          </div>
+          <div class="input-grup mb-3">
+            <label for="">Nomor Telp</label>
+            <input type="number" class="form-control" name="telp" placeholder="Masukkan No Telp Anda" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="submit" name="send" class="btn btn-primary">Kirim</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Modal area End -->
+
     <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll("#filterButtons .btn");
-  const cards = document.querySelectorAll(".card-item");
 
-  buttons.forEach(btn => {
-    btn.addEventListener("click", function () {
-      
-      // aktifkan tombol
-      buttons.forEach(b => b.classList.remove("active"));
-      this.classList.add("active");
+  const cards = Array.from(document.querySelectorAll(".card-item"));
+  const filterBtns = document.querySelectorAll(".filter-btn");
+  const pagination = document.getElementById("pagination");
 
-      const filter = this.getAttribute("data-filter");
+  const rowsPerPage = 6;
+  let currentPage = 1;
+  let currentFilter = "all";
+  let filteredCards = [];
 
-      cards.forEach(card => {
-        const category = card.getAttribute("data-category");
+  /* =====================
+     URL HANDLER
+  ====================== */
+  const params = new URLSearchParams(window.location.search);
+  currentPage = parseInt(params.get("page")) || 1;
+  currentFilter = params.get("filter") || "all";
 
-        if (filter === "all" || filter === category) {
-          card.style.display = "block";
-          card.style.animation = "fadeIn .4s ease";
-        } else {
-          card.style.display = "none";
-        }
-      });
+  /* =====================
+     FILTER DATA
+  ====================== */
+  function applyFilter() {
+    filteredCards = cards.filter(card =>
+      currentFilter === "all" ||
+      card.dataset.category === currentFilter
+    );
+
+    filterBtns.forEach(btn =>
+      btn.classList.toggle("active", btn.dataset.filter === currentFilter)
+    );
+  }
+
+  /* =====================
+     SHOW PAGE
+  ====================== */
+  function showPage(page) {
+    currentPage = page;
+
+    const start = (page - 1) * rowsPerPage;
+    const end = start + rowsPerPage;
+
+    cards.forEach(c => c.classList.add("d-none"));
+    filteredCards.forEach((card, i) => {
+      if (i >= start && i < end) card.classList.remove("d-none");
+    });
+
+    updateURL();
+    renderPagination();
+  }
+
+  /* =====================
+     URL SYNC
+  ====================== */
+  function updateURL() {
+    const url = new URL(window.location);
+    url.searchParams.set("page", currentPage);
+    url.searchParams.set("filter", currentFilter);
+    window.history.replaceState({}, "", url);
+  }
+
+  /* =====================
+     PAGINATION ELLIPSIS
+  ====================== */
+  function renderPagination() {
+    pagination.innerHTML = "";
+    const totalPages = Math.ceil(filteredCards.length / rowsPerPage);
+    if (totalPages <= 1) return;
+
+    const delta = 2;
+
+    const createItem = (label, page, active = false) => {
+      const li = document.createElement("li");
+      li.className = `page-item ${active ? "active" : ""}`;
+      li.innerHTML = `<a href="#" class="page-link">${label}</a>`;
+      li.onclick = e => {
+        e.preventDefault();
+        if (page) showPage(page);
+      };
+      pagination.appendChild(li);
+    };
+
+    if (currentPage > 1) createItem("‹", currentPage - 1);
+
+    for (let i = 1; i <= totalPages; i++) {
+      if (
+        i === 1 ||
+        i === totalPages ||
+        (i >= currentPage - delta && i <= currentPage + delta)
+      ) {
+        createItem(i, i, i === currentPage);
+      } else if (
+        i === currentPage - delta - 1 ||
+        i === currentPage + delta + 1
+      ) {
+        createItem("…");
+      }
+    }
+
+    if (currentPage < totalPages) createItem("›", currentPage + 1);
+  }
+
+  /* =====================
+     FILTER BUTTON CLICK
+  ====================== */
+  filterBtns.forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.preventDefault();
+      currentFilter = btn.dataset.filter;
+      currentPage = 1;
+      applyFilter();
+      showPage(1);
     });
   });
+
+  /* =====================
+     INIT
+  ====================== */
+  applyFilter();
+  showPage(currentPage);
+
 });
 </script>
+
 
 
     <!-- jquery Min JS -->

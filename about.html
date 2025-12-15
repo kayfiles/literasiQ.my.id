@@ -13,7 +13,7 @@
     />
 
     <!-- Title -->
-    <title>LiterasiQ - Home</title>
+    <title>LiterasiQ - About</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
@@ -88,6 +88,20 @@
         width: 100%;
         z-index: 0;
       }
+
+      /* animasi card learn skills */
+      
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
     </style>
 
   </head>
@@ -103,7 +117,7 @@
               <!-- Contact -->
               <span
                 >info :<marquee behavior="" direction=""
-                  >Kami menyediakan </marquee
+                  >Kami menyediakan pembelajaran skills dan training bidang teknologi </marquee
                 ></span
               >
               <!-- End Contact -->
@@ -111,7 +125,7 @@
             <div class="col-lg-6 col-md-7 col-12">
               <!-- Top Contact -->
               <ul class="top-contact">
-                <li><a href=" "><i class="fa fa-phone"></i>+62 851-7305-3120</li></a>
+                <li><a href=" "><i class="fa fa-phone"></i>+62 851-xxxx-xxxx</li></a>
                 <li>
                   <i class="fa fa-envelope"></i
                   ><a href="mailto:support@yourmail.com"
@@ -136,7 +150,7 @@
               <div class="col-lg-3 col-md-3 col-12">
                 <!-- Start Logo -->
                 <div class="logo">
-                  <a href="index.php"><img src="assets/img/Hardeco.png" alt="#" /></a>
+                  <a href="index.html"><img src="img/logo/1.jpeg" alt="#" /></a>
                 </div>
                 <!-- End Logo -->
                 <!-- Mobile Nav -->
@@ -148,25 +162,24 @@
                 <div class="main-menu">
                   <nav class="navigation">
                     <ul class="nav menu">
-                      <li class="active">
-                        <a href="#">Home </a>
-                      </li>
-                      <li><a href="about.php">About </a></li>
-                      <li><a href="event.php">Event </a></li>
                       <li>
-                        <a href="blog.php">Blogs </a>
+                        <a href="index.html">Home </a>
                       </li>
+                      <li class="active"><a href="about.htmk">About </a></li>
                       <li>
                         <a href="#"
                           >Learning <i class="icofont-rounded-down"></i></a>
                           <ul class="dropdown">
                             <li class="nav-item dropend">
-                              <a class="nav-link " href="training.php">Training</a>
+                              <a class="nav-link " href="learning/training.html">Training</a>
                             </li>
                             <li class="nav-item dropend">
-                             <a class="nav-link " href="flexilearn.php">Flexilearn</a>
-                        </ul>
-                      </li>
+                             <a class="nav-link " href="learning/flexilearn.html">Konsultasi</a>
+                            </li>
+                            <li class="nav-item dropend">
+                             <a class="nav-link " href="learning/lainnya.html">Lainnya</a>
+                            </li>
+                          </ul>
                     </ul>
                   </nav>
                 </div>
@@ -189,161 +202,7 @@
     </header>
     <!-- End Header Area -->
 
-    <!-- Slider Area -->
-    <section class="slider">
-      <div class="hero-slider">
-        <!-- Start Single Slider -->
-        <div
-          class="single-slider"
-          style="background-image: url('assets/img/header.png')"
-        >
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-7">
-                <div class="text" style="color: #fff">
-                  <div class="button">
-                    <a href="#" class="btn mb-4"
-                      >Experince The Best IT Solution</a
-                    >
-                  </div>
-                  <h1>Provide <span>IT Solution & Service</span></h1>
-                  <p>
-                    Kami selalu mengikuti tred terbaru dari dalam teknologi
-                    informasi untuk memberikan solusi yang relevan untuk
-                    pelanggan
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Single Slider -->
-        <!-- Start Single Slider -->
-        <div
-          class="single-slider"
-          style="background-image: url('assets/img/header2.png')"
-        >
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-7">
-                <div class="text">
-                  <h1>One Stop Solution</h1>
-                  <p>
-                    Kami menawarkan berbagai layanan teknologi yang dapat
-                    disesuaikan dengan kebutuhan untuk perusahaan anda
-                  </p>
-                  <div class="button">
-                    <a href="#" class="btn primary"
-                      >The more Experience better</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Start End Slider -->
-        <!-- Start Single Slider -->
-        <div
-          class="single-slider"
-          style="background-image: url('assets/img/header3.jpg')"
-        >
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-7">
-                <div class="text">
-                  <h1>
-                    Superior<span>Customer</span> Services
-                    <span>Trust!</span>
-                  </h1>
-                  <p>
-                   Kami berinvestasi dalam teknologi terbaik untuk bisnis anda.
-                  </p>
-                  <div class="button">
-                    <a href="#" class="btn">Get Free Consult</a>
-                    <a href="#" class="btn primary">Contact Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Single Slider -->
-      </div>
-    </section>
-    <!--/ End Slider Area -->
-
-    <!-- Start Schedule Area -->
-    <section class="schedule">
-      <div class="container">
-        <div class="schedule-inner">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-12">
-              <!-- single-schedule -->
-              <div class="single-schedule first">
-                <div class="inner">
-                  <div class="icon">
-                    <i class="fa-solid fa-laptop-code fa-lg"></i>
-                  </div>
-                  <div class="single-content">
-                    <span> ... </span>
-                    <h4>Our Vission</h4>
-                    <p>
-                      Lorem ipsum sit amet consectetur adipiscing elit. Vivamus
-                      et erat in lacus convallis sodales.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-              <!-- single-schedule -->
-              <div class="single-schedule middle">
-                <div class="inner">
-                  <div class="icon">
-                    <i class="icofont-prescription"></i>
-                  </div>
-                  <div class="single-content">
-                    <span>...</span>
-                    <h4>Our Mission</h4>
-                    <p>
-                      Lorem ipsum sit amet consectetur adipiscing elit. Vivamus
-                      et erat in lacus convallis sodales.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-12">
-              <!-- single-schedule -->
-              <div class="single-schedule last">
-                <div class="inner">
-                  <div class="icon">
-                    <i class="icofont-ui-clock"></i>
-                  </div>
-                  <div class="single-content">
-                    <span>...</span>
-                    <h4>Exellent Team</h4>
-                    <ul class="time-sidual">
-                      <li class="day">
-                        Monday - Fridayp <span>8.00-20.00</span>
-                      </li>
-                      <li class="day">Saturday <span>9.00-18.30</span></li>
-                      <li class="day">
-                        Monday - Thusday <span>9.00-15.00</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/End Start schedule Area -->
-
-    <!-- Start Feautes -->
+	  <!-- Start Feautes -->
     <section class="why-choose section">
       <div class="container">
         <div class="row">
@@ -372,7 +231,7 @@
           <div class="col-lg-6 col-12">
             <!-- Start Choose Rights -->
               <div>
-                <img src="assets/img/Hardeco.png" alt="Hardeco" width="900px">
+                <img src="img/logo/1.jpeg" alt="LiterasiQ" width="900px">
             </div>
             <!-- End Choose Rights -->
           </div>
@@ -433,282 +292,103 @@
       </div>
     </div>
     <!--/ End Fun-facts -->
-
-    <!-- start card learn -->
-    <div class="container-xxl py-5" style="background-color: #f3f3f3;">
-      <div class="container">
-        <div class="row g-0 gx-5 align-items-end">
-          <div class="col-lg-12">
-            <div
-              class="text-center mb-5 wow slideInLeft"
-              data-wow-delay="0.1s">
-              <h1 class="mb-3">Best Courses To Level Up <br> Your Skills</h1>
-               <div class="btn-group custom-btn-group justify-content-center" role="group">
-                <button type="button" class="btn m-2 active">Show All</button>
-                <button type="button" class="btn m-2">Training</button>
-                <button type="button" class="btn m-2">Flexilearn</button>
-               </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="tab-content">
-          <div id="tab-1" class="tab-pane fade show p-0 active">
-            <div class="row g-4">
-              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="property-item rounded overflow-hidden bg-light">
-                  <div class="position-relative overflow-hidden">
-                    <a href=""
-                      ><img class="img-fluid" src="img/produk/Cyber Security.jpg" alt=""
-                    /></a>
-
-                    <div
-                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
-                    >
-                    <i class="fa-solid fa-shield-halved fa-2xl"></i>
-                    </div>
-                  </div>
-                  <div class="p-4 pb-0">
-                    <a class="d-block h5 mb-2 mt-4" href=""
-                      >Menciptakan solusi inovatif dan informatif yang berfokus pada keamanan jaringan dan server</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="property-item rounded overflow-hidden bg-light">
-                  <div class="position-relative overflow-hidden">
-                    <a href=""
-                      ><img class="img-fluid" src="img/produk/Data Analyst BNSP.jpg" alt=""
-                    /></a>
-
-                    <div
-                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
-                    >
-                    <i class="fa-solid fa-laptop fa-2xl"></i>
-                    </div>
-                  </div>
-                  <div class="p-4 pb-0">
-                    <a class="d-block h5 mb-2 mt-4" href=""
-                      >Mendorong keakuratan dan grafik demi pertumbuhan target</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="property-item rounded overflow-hidden bg-light">
-                  <div class="position-relative overflow-hidden">
-                    <a href=""
-                      ><img class="img-fluid" src="img/produk/Video Editing.webp" alt=""
-                    /></a>
-                    <div
-                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      <i class="fa-solid fa-lightbulb fa-2xl mb-4"></i>
-                    </div>
-                  </div>
-                  <div class="p-4 pb-0">
-                    
-                      <a class="d-block h5 mb-2 mt-4" href=""
-                        >Memanfaatkan teknologi AI video editing untuk solusi yang
-                        efisien</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end card learn -->
-
-    <!-- Start Gallery -->
-    <section class="portfolio section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>Gallery Photos</h2>
-              <img src="img/section-img.png" alt="#" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 col-12">
-            <div class="owl-carousel portfolio-slider">
-              <div class="single-pf">
-                <img src="img/gallery/1.jpeg" alt="#" />
-              </div>
-              <div class="single-pf">
-                <img src="img/gallery/2.jpeg" alt="#" />
-              </div>
-              <div class="single-pf">
-                <img src="img/gallery/3.jpeg" alt="#" />
-              </div>
-              <div class="single-pf">
-                <img src="img/gallery/4.jpeg" alt="#" />
-              </div>
-              <div class="single-pf">
-                <img src="img/gallery/5.jpeg" alt="#" />
-              </div>
-              <div class="single-pf">
-                <img src="img/gallery/6.jpeg" alt="#" />
-              </div>
-              <div class="single-pf">
-                <img src="img/gallery/7.jpeg" alt="#" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/ End Gallery -->
-
-    <!-- Start service -->
-    <section class="services section" style="background-color: #f3f3f3;">
-      <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="mb-3">We Offer Different Services To Improve Your Skills</h1>
-            </div>
-            <div class="row g-4">
-              
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                        <div class="rounded p-4">
-                            <div class="icon mb-3">
-                              <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x text-danger"></i>
-                                <i class="fas fa-laptop fa-stack-1x fa-inverse fa-beat"></i>
-                              </span>
-                            </div>
-                            <h6>Software Development</h6>
-                            <span>123 Properties</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                        <div class="rounded p-4">
-                            <div class="icon mb-3">
-                              <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x text-danger"></i>
-                                <i
-                                  class="fas fa-shopping-cart fa-stack-1x fa-inverse fa-flip"
-                                ></i>
-                              </span>
-                            </div>
-                            <h6>E-Commerce</h6>
-                            <span>123 Properties</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                        <div class="rounded p-4">
-                            <div class="icon mb-3">
-                              <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x text-danger"></i>
-                                <i class="fas fa-pen-to-square fa-stack-1x fa-inverse fa-beat"></i>
-                              </span>
-                            </div>
-                            <h6>Design</h6>
-                            <span>123 Properties</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                        <div class="rounded p-4">
-                            <div class="icon mb-3">
-                              <span class="fa-stack fa-4x justify-content-center">
-                                <i class="fas fa-circle fa-stack-2x text-danger"></i>
-                                <i
-                                  class="fas fa-chart-column fa-shake fa-stack-1x fa-inverse fa-lg"
-                                ></i>
-                              </span>
-                            </div>
-                            <h6>Digital Marketing</h6>
-                            <span>123 Properties</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    </section>
-    <!--/ End service -->
-
-    <!-- Start Appointment -->
-    <section class="appointment">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>We Are Always Ready to Help You. Get In Touch</h2>
-              <img src="img/section-img.png" alt="#" />
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-12">
-            <form class="form" action="#">
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                  <div class="form-group">
-                    <input name="name" type="text" placeholder="Name" />
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                  <div class="form-group">
-                    <input name="email" type="email" placeholder="Email" />
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                  <div class="form-group">
-                    <input name="phone" type="text" placeholder="Phone" />
-                  </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-12">
-                  <div class="form-group">
-                    <textarea
-                      name="message"
-                      placeholder="Write Your Message Here....."
-                    ></textarea>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-5 col-md-4 col-12">
-                  <div class="form-group">
-                    <div class="button">
-                      <button type="submit" class="btn">
-                        Send Mail
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-7 col-md-8 col-12">
-                  <p>( We will be confirm by an Text Message )</p>
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="appointment-image">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.6222648876887!2d106.85536547442231!3d-6.203809693783979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f500496e65df%3A0x233b49e11a30968e!2sGedung%20Ascom!5e1!3m2!1sen!2sid!4v1765524473521!5m2!1sen!2sid" 
+				
+		<!-- Start Contact Us -->
+		<section class="contact-us section">
+			<div class="container">
+				<div class="inner">
+					<div class="row"> 
+						<div class="col-lg-6">
+							<div class="contact-us-left">
+								<!--Start Google-map -->
+								<div>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.6222648876887!2d106.85536547442231!3d-6.203809693783979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f500496e65df%3A0x233b49e11a30968e!2sGedung%20Ascom!5e1!3m2!1sen!2sid!4v1765524473521!5m2!1sen!2sid" 
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Appointment -->
-
-    <!-- Footer Area -->
+								</div>
+								<!--/End Google-map -->
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="contact-us-form">
+								<h2>Butuh Informasi Lebih Lanjut ?</h2>
+								<p>Apakah Anda memiliki pertanyaan, umpan balik, atau hanya ingin menyapa? Jangan ragu untuk menghubungi kami. Kami selalu senang membantu dan menjawab pertanyaan Anda.</p>
+								<!-- Form -->
+								<form class="form" method="post" action="mail/mail.php">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="form-group">
+												<input type="text" name="name" placeholder="Name" required="">
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="form-group">
+												<input type="email" name="email" placeholder="Email" required="">
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="form-group">
+												<input type="text" name="phone" placeholder="Phone" required="">
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="form-group">
+												<textarea name="message" placeholder="Your Message" required=""></textarea>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="form-group login-btn">
+												<button class="btn" name="send" type="submit">Send</button>
+											</div>
+										</div>
+									</div>
+								</form>
+								<!--/ End Form -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contact-info">
+					<div class="row">
+						<!-- single-info -->
+						<div class="col-lg-4 col-12 ">
+							<div class="single-info">
+								<i class="icofont icofont-ui-call"></i>
+								<div class="content">
+									<h3>+(62)812-1233-2211</h3>
+									<p>info@literasiQ.com</p>
+								</div>
+							</div>
+						</div>
+						<!--/End single-info -->
+						<!-- single-info -->
+						<div class="col-lg-4 col-12 ">
+							<div class="single-info">
+								<i class="icofont-google-map"></i>
+								<div class="content">
+									<h3>Jalan Matraman Raya No.67</h3>
+									<p>Jakarta Timur</p>
+								</div>
+							</div>
+						</div>
+						<!--/End single-info -->
+						<!-- single-info -->
+						<div class="col-lg-4 col-12 ">
+							<div class="single-info">
+								<i class="icofont icofont-wall-clock"></i>
+								<div class="content">
+									<h3>Mon - Fri: <br> 8am - 5pm</h3>
+									<p>Sunday Closed</p>
+								</div>
+							</div>
+						</div>
+						<!--/End single-info -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Contact Us -->
+		
+	 <!-- Footer Area -->
     <footer id="footer" class="footer">
       <!-- Footer Top -->
       <div class="footer-top">
@@ -863,46 +543,52 @@
       <!--/ End Copyright -->
     </footer>
     <!--/ End Footer Area -->
-
-    <!-- jquery Min JS -->
-    <script src="js/jquery.min.js"></script>
-    <!-- jquery Migrate JS -->
-    <script src="js/jquery-migrate-3.0.0.js"></script>
-    <!-- jquery Ui JS -->
-    <script src="js/jquery-ui.min.js"></script>
-    <!-- Easing JS -->
-    <script src="js/easing.js"></script>
-    <!-- Color JS -->
-    <script src="js/colors.js"></script>
-    <!-- Popper JS -->
-    <script src="js/popper.min.js"></script>
-    <!-- Bootstrap Datepicker JS -->
-    <script src="js/bootstrap-datepicker.js"></script>
-    <!-- Jquery Nav JS -->
-    <script src="js/jquery.nav.js"></script>
-    <!-- Slicknav JS -->
-    <script src="js/slicknav.min.js"></script>
-    <!-- ScrollUp JS -->
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <!-- Niceselect JS -->
-    <script src="js/niceselect.js"></script>
-    <!-- Tilt Jquery JS -->
-    <script src="js/tilt.jquery.min.js"></script>
-    <!-- Owl Carousel JS -->
-    <script src="js/owl-carousel.js"></script>
-    <!-- counterup JS -->
-    <script src="js/jquery.counterup.min.js"></script>
-    <!-- Steller JS -->
-    <script src="js/steller.js"></script>
-    <!-- Wow JS -->
-    <script src="js/wow.min.js"></script>
-    <!-- Magnific Popup JS -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- Counter Up CDN JS -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Main JS -->
-    <script src="js/main.js"></script>
-  </body>
+		
+		<!-- jquery Min JS -->
+        <script src="js/jquery.min.js"></script>
+		<!-- jquery Migrate JS -->
+		<script src="js/jquery-migrate-3.0.0.js"></script>
+		<!-- jquery Ui JS -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- Easing JS -->
+        <script src="js/easing.js"></script>
+		<!-- Color JS -->
+		<script src="js/colors.js"></script>
+		<!-- Popper JS -->
+		<script src="js/popper.min.js"></script>
+		<!-- Bootstrap Datepicker JS -->
+		<script src="js/bootstrap-datepicker.js"></script>
+		<!-- Jquery Nav JS -->
+        <script src="js/jquery.nav.js"></script>
+		<!-- Slicknav JS -->
+		<script src="js/slicknav.min.js"></script>
+		<!-- ScrollUp JS -->
+        <script src="js/jquery.scrollUp.min.js"></script>
+		<!-- Niceselect JS -->
+		<script src="js/niceselect.js"></script>
+		<!-- Tilt Jquery JS -->
+		<script src="js/tilt.jquery.min.js"></script>
+		<!-- Owl Carousel JS -->
+        <script src="js/owl-carousel.js"></script>
+		<!-- counterup JS -->
+		<script src="js/jquery.counterup.min.js"></script>
+		<!-- Steller JS -->
+		<script src="js/steller.js"></script>
+		<!-- Wow JS -->
+		<script src="js/wow.min.js"></script>
+		<!-- Magnific Popup JS -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- Counter Up CDN JS -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<!-- Google Map API Key JS -->
+		<script src="https://maps.google.com/maps/api/js?key=AIzaSyDGqTyqoPIvYxhn_Sa7ZrK5bENUWhpCo0w"></script>
+		<!-- Gmaps JS -->
+		<script src="js/gmaps.min.js"></script>
+		<!-- Map Active JS -->
+		<script src="js/map-active.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+    </body>
 </html>
