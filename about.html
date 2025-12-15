@@ -13,7 +13,7 @@
     />
 
     <!-- Title -->
-    <title>Tentang Kami .</title>
+    <title>LiterasiQ - Home</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
@@ -36,6 +36,7 @@
     <meta name="msapplication-square150x150logo" content="favicon/mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="favicon/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="favicon/mstile-310x310.png" />
+
 
     <!-- Google Fonts -->
     <link
@@ -76,27 +77,22 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 
+    <style>
+      .overlayy::before {
+        content: "";
+        background: rgba(196, 0, 0, 0.8) !important; /* merah semi transparan */
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+      }
+    </style>
+
   </head>
   <body>
-    <!-- Preloader -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="loader-outter"></div>
-        <div class="loader-inner"></div>
-
-        <div class="indicator">
-          <svg width="16px" height="12px">
-            <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
-            <polyline
-              id="front"
-              points="1 6 4 6 6 11 10 1 12 6 15 6"
-            ></polyline>
-          </svg>
-        </div>
-      </div>
-    </div>
-    <!-- End Preloader -->
-
+   
     <!-- Header Area -->
     <header class="header">
       <!-- Topbar -->
@@ -104,23 +100,22 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-5 col-12">
-              <!-- info -->
+              <!-- Contact -->
               <span
                 >info :<marquee behavior="" direction=""
-                  >Kami menyediakan IoT, software, design dan digital
-                  marketing</marquee
+                  >Kami menyediakan </marquee
                 ></span
               >
-              <!-- End info -->
+              <!-- End Contact -->
             </div>
             <div class="col-lg-6 col-md-7 col-12">
               <!-- Top Contact -->
               <ul class="top-contact">
-                <li><a href=""><i class="fa fa-phone"></i>+62 851-7305-3120</li></a>
+                <li><a href=" "><i class="fa fa-phone"></i>+62 851-7305-3120</li></a>
                 <li>
                   <i class="fa fa-envelope"></i
                   ><a href="mailto:support@yourmail.com"
-                    >support@yourmail.com</a
+                    >info@literasiQ.com</a
                   >
                 </li>
               </ul>
@@ -132,13 +127,16 @@
       <!-- End Topbar -->
       <!-- Header Inner -->
       <div class="header-inner">
+         <!-- video motion start -->
+        <div class="neon-bg"></div>
+       <!-- video motion end -->
         <div class="container">
           <div class="inner">
             <div class="row">
               <div class="col-lg-3 col-md-3 col-12">
                 <!-- Start Logo -->
                 <div class="logo">
-                  <a href="index.html"><img src="img/logo.png" alt="#" /></a>
+                  <a href="index.php"><img src="assets/img/Hardeco.png" alt="#" /></a>
                 </div>
                 <!-- End Logo -->
                 <!-- Mobile Nav -->
@@ -150,70 +148,23 @@
                 <div class="main-menu">
                   <nav class="navigation">
                     <ul class="nav menu">
-                      <li>
-                        <a href="index.html">Home</a>
-                      </li>
                       <li class="active">
-                        <a href="about.html">Tentang Kami </a>
+                        <a href="#">Home </a>
                       </li>
-                      <li><a href="Portfolio.html">Portfolio </a></li>
-                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="about.php">About </a></li>
+                      <li><a href="event.php">Event </a></li>
                       <li>
-                        <a href="product.html"
-                          >Produk Kami <i class="icofont-rounded-down"></i
-                        ></a>
-                        <ul class="dropdown">
-                          <li class="nav-item dropend">
-                            <a class="nav-link" href="#"
-                              >Software <i class="icofont-rounded-right"></i
-                            ></a>
-                            <ul class="dropdown-menu">
-                              <li>
-                                <a class="dropdown-item" href="#"
-                                  >Sistem Penjualan</a
-                                >
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="#"
-                                  >Sistem Presensi Online</a
-                                >
-                              </li>
-                            </ul>
-                          </li>
-                          <li class="nav-item dropend">
-                            <a class="nav-link" href="#"
-                              >Design <i class="icofont-rounded-right"></i
-                            ></a>
-                            <ul class="dropdown-menu">
-                              <li>
-                                <a class="dropdown-item" href="#"
-                                  >Logo Company</a
-                                >
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="#"
-                                  >UI mobile app</a
-                                >
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li class="nav-item dropend">
-                            <a class="nav-link" href="#"
-                              >Digital Marketing
-                              <i class="icofont-rounded-right"></i
-                            ></a>
-                            <ul class="dropdown-menu">
-                              <li>
-                                <a class="dropdown-item" href="#"
-                                  >Ads Content Sosmed</a
-                                >
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="#">Ads Google</a>
-                              </li>
-                            </ul>
-                          </li>
+                        <a href="blog.php">Blogs </a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Learning <i class="icofont-rounded-down"></i></a>
+                          <ul class="dropdown">
+                            <li class="nav-item dropend">
+                              <a class="nav-link " href="training.php">Training</a>
+                            </li>
+                            <li class="nav-item dropend">
+                             <a class="nav-link " href="flexilearn.php">Flexilearn</a>
                         </ul>
                       </li>
                     </ul>
@@ -223,10 +174,9 @@
               </div>
               <div class="col-lg-2 col-12">
                 <div class="get-quote">
-                  <a href="#" class="btn">
-                    <span class="text"
-                      ><i class="fa-brands fa-whatsapp fa-xl"></i> Hubungi
-                      Kami</span
+                  <a href="#" class="btn"
+                    ><span class="text">
+                      MY LEARNING <i class="fa-solid fa-arrow-right fa-sm"></i></span
                     ></a
                   >
                 </div>
@@ -239,92 +189,524 @@
     </header>
     <!-- End Header Area -->
 
-    <!-- Breadcrumbs -->
-    <div class="breadcrumbs overlay">
+    <!-- Slider Area -->
+    <section class="slider">
+      <div class="hero-slider">
+        <!-- Start Single Slider -->
+        <div
+          class="single-slider"
+          style="background-image: url('assets/img/header.png')"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text" style="color: #fff">
+                  <div class="button">
+                    <a href="#" class="btn mb-4"
+                      >Experince The Best IT Solution</a
+                    >
+                  </div>
+                  <h1>Provide <span>IT Solution & Service</span></h1>
+                  <p>
+                    Kami selalu mengikuti tred terbaru dari dalam teknologi
+                    informasi untuk memberikan solusi yang relevan untuk
+                    pelanggan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Slider -->
+        <!-- Start Single Slider -->
+        <div
+          class="single-slider"
+          style="background-image: url('assets/img/header2.png')"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1>One Stop Solution</h1>
+                  <p>
+                    Kami menawarkan berbagai layanan teknologi yang dapat
+                    disesuaikan dengan kebutuhan untuk perusahaan anda
+                  </p>
+                  <div class="button">
+                    <a href="#" class="btn primary"
+                      >The more Experience better</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Start End Slider -->
+        <!-- Start Single Slider -->
+        <div
+          class="single-slider"
+          style="background-image: url('assets/img/header3.jpg')"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1>
+                    Superior<span>Customer</span> Services
+                    <span>Trust!</span>
+                  </h1>
+                  <p>
+                   Kami berinvestasi dalam teknologi terbaik untuk bisnis anda.
+                  </p>
+                  <div class="button">
+                    <a href="#" class="btn">Get Free Consult</a>
+                    <a href="#" class="btn primary">Contact Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Slider -->
+      </div>
+    </section>
+    <!--/ End Slider Area -->
+
+    <!-- Start Schedule Area -->
+    <section class="schedule">
       <div class="container">
-        <div class="bread-inner">
+        <div class="schedule-inner">
           <div class="row">
-            <div class="col-12">
-              <h2>Tentang Kami</h2>
-              <ul class="bread-list">
-                <li><a href="index.html">Home</a></li>
-                <li><i class="icofont-simple-right"></i></li>
-                <li class="active">Tentang Kami</li>
-              </ul>
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule first">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fa-solid fa-laptop-code fa-lg"></i>
+                  </div>
+                  <div class="single-content">
+                    <span> ... </span>
+                    <h4>Our Vission</h4>
+                    <p>
+                      Lorem ipsum sit amet consectetur adipiscing elit. Vivamus
+                      et erat in lacus convallis sodales.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule middle">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="icofont-prescription"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>...</span>
+                    <h4>Our Mission</h4>
+                    <p>
+                      Lorem ipsum sit amet consectetur adipiscing elit. Vivamus
+                      et erat in lacus convallis sodales.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule last">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="icofont-ui-clock"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>...</span>
+                    <h4>Exellent Team</h4>
+                    <ul class="time-sidual">
+                      <li class="day">
+                        Monday - Fridayp <span>8.00-20.00</span>
+                      </li>
+                      <li class="day">Saturday <span>9.00-18.30</span></li>
+                      <li class="day">
+                        Monday - Thusday <span>9.00-15.00</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/End Start schedule Area -->
+
+    <!-- Start Feautes -->
+    <section class="why-choose section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>We Offer Different Services To Improve Your Company</h2>
+              <img src="img/section-img.png" alt="#" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <!-- Start Choose Left -->
+            <div class="choose-left">
+              <h3>Who We Are</h3>
+              
+                <img src="assets/img/about.png" alt="" width="1000px">
+              
+              <div class="row">
+                <div class="col-lg-8">
+                </div>
+              </div>
+            </div>
+            <!-- End Choose Left -->
+          </div>
+          <div class="col-lg-6 col-12">
+            <!-- Start Choose Rights -->
+              <div>
+                <img src="assets/img/Hardeco.png" alt="Hardeco" width="900px">
+            </div>
+            <!-- End Choose Rights -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End Feautes -->
+
+    <!-- Start Fun-facts -->
+    <div id="fun-facts" class="fun-facts section overlayy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont icofont-list"></i>
+              <div class="content">
+                <span class="counter">468</span>
+                <p>OF Projects</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont icofont-user-alt-3"></i>
+              <div class="content">
+                <span class="counter">99</span>
+                <p>Specialist Member</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont-simple-smile"></i>
+              <div class="content">
+                <span class="counter">279</span>
+                <p>Happy clients</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont icofont-table"></i>
+              <div class="content">
+                <span class="counter">5</span>
+                <p>Years of Experience</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ End Fun-facts -->
+
+    <!-- start card learn -->
+    <div class="container-xxl py-5" style="background-color: #f3f3f3;">
+      <div class="container">
+        <div class="row g-0 gx-5 align-items-end">
+          <div class="col-lg-12">
+            <div
+              class="text-center mb-5 wow slideInLeft"
+              data-wow-delay="0.1s">
+              <h1 class="mb-3">Best Courses To Level Up <br> Your Skills</h1>
+               <div class="btn-group custom-btn-group justify-content-center" role="group">
+                <button type="button" class="btn m-2 active">Show All</button>
+                <button type="button" class="btn m-2">Training</button>
+                <button type="button" class="btn m-2">Flexilearn</button>
+               </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="tab-content">
+          <div id="tab-1" class="tab-pane fade show p-0 active">
+            <div class="row g-4">
+              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href=""
+                      ><img class="img-fluid" src="img/produk/Cyber Security.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Menciptakan solusi inovatif dan informatif yang berfokus pada keamanan jaringan dan server</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href=""
+                      ><img class="img-fluid" src="img/produk/Data Analyst BNSP.jpg" alt=""
+                    /></a>
+
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                    >
+                    <i class="fa-solid fa-laptop fa-2xl"></i>
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 mt-4" href=""
+                      >Mendorong keakuratan dan grafik demi pertumbuhan target</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="property-item rounded overflow-hidden bg-light">
+                  <div class="position-relative overflow-hidden">
+                    <a href=""
+                      ><img class="img-fluid" src="img/produk/Video Editing.webp" alt=""
+                    /></a>
+                    <div
+                      class="bg-white rounded-top text-danger position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                      <i class="fa-solid fa-lightbulb fa-2xl mb-4"></i>
+                    </div>
+                  </div>
+                  <div class="p-4 pb-0">
+                    
+                      <a class="d-block h5 mb-2 mt-4" href=""
+                        >Memanfaatkan teknologi AI video editing untuk solusi yang
+                        efisien</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Breadcrumbs -->
+    <!-- end card learn -->
 
-    <!-- about start -->
-    <div class="about" style="font-family: 'Times New Roman', Times, serif; padding: 4.3rem; width: 80%;">
-      <p><span style="font-weight: bold;">Sekawan Meta System</span> adalah sebuah perusahaan yang fokus pada
-      penyediaan jasa pembuatan Internet of Things, Software Development. Kami
-      secara konsisten mendorong batasan teknologi untuk menciptakan solusi
-      inovatif bagi era digital. Keahlian kami terletak pada pengembangan
-      aplikasi perangkat lunak mutakhir dan sistem IoT yang mengubah bisnis dan
-      meningkatkan kualitas hidup.</p> <br />
-      <br />
-      <br />
-      <h5>Visi :</h5>
-      <br />
+    <!-- Start Gallery -->
+    <section class="portfolio section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>Gallery Photos</h2>
+              <img src="img/section-img.png" alt="#" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <div class="owl-carousel portfolio-slider">
+              <div class="single-pf">
+                <img src="img/gallery/1.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/2.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/3.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/4.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/5.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/6.jpeg" alt="#" />
+              </div>
+              <div class="single-pf">
+                <img src="img/gallery/7.jpeg" alt="#" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End Gallery -->
 
-      Menjadi pemimpin transformasi digital dengan memberikan solusi perangkat
-      lunak dan IoT inovatif, andal, dan berkelanjutan. Menjadi penyedia solusi
-      teknologi yang terkemuka di bidang Internet of Things, Artificial
-      Intelligence, Software Development, dan Hardware Development, dengan
-      memberikan nilai tambah yang maksimal bagi pelanggan dan masyarakat.
-      <br />
-      <br />
-
-      <h5>Misi :</h5>
-      <br />
-      Misi kami adalah menyediakan produk dan layanan inovatif baik perangkat
-      lunak dan IoT terbaik yang memberdayakan bisnis dan individu untuk
-      berkembang di era digital. Mengembangkan dan menyediakan solusi teknologi
-      inovatif dan berkelanjutan, yang dapat membantu memajukan bisnis dan
-      kehidupan manusia. Kami berkomitmen untuk memberikan layanan yang
-      berkualitas tinggi dan mengutamakan kepuasan pelanggan, serta
-      berkontribusi pada kemajuan teknologi dan keberlanjutan lingkungan. <br />
-      <br />
-      <br />
-      <h5>Kami bertujuan untuk:</h5>
-      <br />
-      <ul class="set">
-        <li style="list-style-type: square; margin-left: 2rem;">Menciptakan solusi inovatif yang berfokus pada pelanggan.</li>
-        <li style="list-style-type: square; margin-left: 2rem;">Membangun tim yang solid, berbakat, beragam, dan bersemangat.</li>
-        <li style="list-style-type: square; margin-left: 2rem;">Mendorong kemitraan dan kolaborasi demi pertumbuhan bersama.</li>
-        <li style="list-style-type: square; margin-left: 2rem;">Menjamin praktik bisnis secara etis dan fair.</li>
-      </ul>
-      <br />
-      <br />
-      <h5>Nilai nilai inti didalam Sekawan Meta System :</h5>
-      <br />
-      <ul class="set">
-        <li> <span style="list-style-type: square; margin-left: 2rem;">Inovasi:</span> Kami berkomitmen untuk memimpin teknologi dansolusi baru yang membuat perbedaan. </li>
-        <li>
-          <span style="list-style-type: square; margin-left: 2rem;">Integritas:</span> Kami menjaga standar etika tertinggi dalam
-          semua interaksi kami.
-        </li>
-        <li>
-          <span style="list-style-type: square; margin-left: 2rem;">Keunggulan:</span> Kami berusaha untuk keunggulan dalam semua
-          yang kami lakukan.
-        </li>
-        <li>
-          <span style="list-style-type: square; margin-left: 2rem;">Kolaborasi:</span> Kami percaya pada kekuatan kolaborasi untuk
-          mencapai kesuksesan.
-        </li>
-      </ul>
-      <br />
-      <br />
-      <br />
-      <span style="font-weight: bold;">Alamat Kantor Kami :</span> Perumahan Bukit Pertanian Jl. Cendana
-      Raya No.37 RT 001 RW 004 Kelurahan Tirtajaya Kecamatan Sukmajaya Depok,
-      Jawa Barat.
+    <!-- Start service -->
+    <section class="services section" style="background-color: #f3f3f3;">
+      <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="mb-3">We Offer Different Services To Improve Your Skills</h1>
+            </div>
+            <div class="row g-4">
+              
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                              <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-danger"></i>
+                                <i class="fas fa-laptop fa-stack-1x fa-inverse fa-beat"></i>
+                              </span>
+                            </div>
+                            <h6>Software Development</h6>
+                            <span>123 Properties</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                              <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-danger"></i>
+                                <i
+                                  class="fas fa-shopping-cart fa-stack-1x fa-inverse fa-flip"
+                                ></i>
+                              </span>
+                            </div>
+                            <h6>E-Commerce</h6>
+                            <span>123 Properties</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                              <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-danger"></i>
+                                <i class="fas fa-pen-to-square fa-stack-1x fa-inverse fa-beat"></i>
+                              </span>
+                            </div>
+                            <h6>Design</h6>
+                            <span>123 Properties</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                              <span class="fa-stack fa-4x justify-content-center">
+                                <i class="fas fa-circle fa-stack-2x text-danger"></i>
+                                <i
+                                  class="fas fa-chart-column fa-shake fa-stack-1x fa-inverse fa-lg"
+                                ></i>
+                              </span>
+                            </div>
+                            <h6>Digital Marketing</h6>
+                            <span>123 Properties</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- about end -->
+    </section>
+    <!--/ End service -->
+
+    <!-- Start Appointment -->
+    <section class="appointment">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>We Are Always Ready to Help You. Get In Touch</h2>
+              <img src="img/section-img.png" alt="#" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <form class="form" action="#">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input name="name" type="text" placeholder="Name" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input name="email" type="email" placeholder="Email" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input name="phone" type="text" placeholder="Phone" />
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                  <div class="form-group">
+                    <textarea
+                      name="message"
+                      placeholder="Write Your Message Here....."
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-5 col-md-4 col-12">
+                  <div class="form-group">
+                    <div class="button">
+                      <button type="submit" class="btn">
+                        Send Mail
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7 col-md-8 col-12">
+                  <p>( We will be confirm by an Text Message )</p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="appointment-image">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.6222648876887!2d106.85536547442231!3d-6.203809693783979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f500496e65df%3A0x233b49e11a30968e!2sGedung%20Ascom!5e1!3m2!1sen!2sid!4v1765524473521!5m2!1sen!2sid" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Appointment -->
 
     <!-- Footer Area -->
     <footer id="footer" class="footer">
@@ -336,8 +718,7 @@
               <div class="single-footer">
                 <h2>About Us</h2>
                 <p>
-                  Kami bekerja dengan semangat menghadapi tantangan dan
-                  menciptakan terobosan baru melalui teknologi inovasi.
+                  Kami bekerja dengan semangat menghadapi tantangan dan menciptakan terobosan baru melalui teknologi inovasi.
                 </p>
                 <!-- Social -->
                 <ul class="social">
@@ -345,16 +726,10 @@
                     <a href="#"><i class="icofont-facebook"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="icofont-google-plus"></i></a>
-                  </li>
-                  <li>
                     <a href="#"><i class="icofont-twitter"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="icofont-vimeo"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="icofont-pinterest"></i></a>
+                    <a href="#"><i class="icofont-instagram"></i></a>
                   </li>
                 </ul>
                 <!-- End Social -->
@@ -439,39 +814,29 @@
               <div class="single-footer">
                 <h2>Open Hours</h2>
                 <ul class="time-sidual">
-                  <li class="day">
-                    Monday - Saturday <span>8.00-20.00 WIB</span>
-                  </li>
+                  <li class="day">Monday - Saturday <span>8.00-20.00 WIB</span></li>
                   <li class="day">Sunday <span>Clossed</span></li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
-              <div class="single-footer">
-                <h2>Newsletter</h2>
-                <p>
-                  subscribe to our newsletter to get allour news in your inbox..
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                </p>
-                <form
-                  action="mail/mail.php"
-                  method="get"
-                  target="_blank"
-                  class="newsletter-inner"
-                >
-                  <input
-                    name="email"
-                    placeholder="Email Address"
-                    class="common-input"
-                    onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Your email address'"
-                    required=""
-                    type="email"
-                  />
-                  <button class="button">
-                    <i class="icofont icofont-paper-plane"></i>
-                  </button>
-                </form>
+              <div class="single-footer f-link">
+                <h2>Get In Touch</h2>
+                <ul class="text-white">
+                  <li>
+                        <a href="#"
+                          ><i class="fa-solid fa-location-dot fa-lg" aria-hidden="true"></i
+                          > Jalan Matraman Raya No.67, JAKARTA TIMUR</a
+                        >
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-whatsapp fa-lg"></i> 0812-1233-2211</a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-regular fa-envelope fa-lg"></i> info@literasiQ.com</a>
+                  </li>
+                </ul>
+               
               </div>
             </div>
           </div>
@@ -485,8 +850,10 @@
             <div class="col-lg-12 col-md-12 col-12">
               <div class="copyright-content">
                 <p>
-                  © Copyright 2019 -
-                  <a href="" target="_blank">Semesis.id</a> All Rights Reserved
+                  © Copyright 2025 - <a href="" target="_blank"
+                  >literasiQ</a
+                > All Rights Reserved
+                  
                 </p>
               </div>
             </div>
